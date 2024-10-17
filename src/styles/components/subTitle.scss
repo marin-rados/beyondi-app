@@ -1,0 +1,9 @@
+.sub-title {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--color-gray-500);
+  line-height: 1.875rem;
+  @media (max-width: 375px) {
+    font-size: 1.125rem;
+  }
+}

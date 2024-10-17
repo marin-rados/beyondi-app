@@ -1,0 +1,10 @@
+.more {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    &__text {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--color-primary-700);
+    }
+}
