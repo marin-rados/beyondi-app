@@ -78,7 +78,7 @@ const LoginRegister = () => {
                   </>
                 )}
               </div>
-              <Button onClick={setIsLogged} height={3} width="100%">
+              <Button onClick={() => setIsLogged(true)} height={3} width="100%">
                 {register ? "Get started" : "Sign in"}
               </Button>
               <button className="signup-google">
